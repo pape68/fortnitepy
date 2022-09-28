@@ -1,3 +1,4 @@
+import discord
 """
 The MIT License (MIT)
 
@@ -916,3 +917,4 @@ class Bot(GroupMixin, Client):
 
         ctx = await self.get_context(message)
         await self.invoke(ctx)
+ ####### ctx is lolll
